@@ -26,7 +26,7 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
 
 @TestPropertySource(properties = {
-        "spring.application.name=service-cp-civil-caseadmin-case-management",
+        "spring.application.name=service-cp-crime-caseadmin-case-management",
         "spring.main.lazy-initialization=true",
         "server.servlet.context-path="
 })

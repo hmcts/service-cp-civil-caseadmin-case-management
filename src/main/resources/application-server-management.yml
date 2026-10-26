@@ -27,7 +27,7 @@ management:
         enabled: true                  # liveness/readiness groups
   metrics:
     tags:
-      service: service-cp-civil-caseadmin-case-management
+      service: service-cp-crime-caseadmin-case-management
       cluster: ${CLUSTER_NAME:local}
       region: ${REGION:local}
   tracing:

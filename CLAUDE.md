@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-`service-cp-civil-caseadmin-case-management` (renamed from `cp-case-management-service`) is an HMCTS Common Platform Spring Boot 4 / Java 25 service built from the HMCTS Spring Boot service template. It is currently a bare scaffold: `Application.java` plus actuator, observability, logging, JPA/Flyway/PostgreSQL and authz configuration. There is no domain code yet. Reference implementations of common patterns live in `hmcts/service-hmcts-springboot-demo` (see README).
+`service-cp-crime-caseadmin-case-management` (renamed from `cp-case-management-service`) is an HMCTS Common Platform Spring Boot 4 / Java 25 service built from the HMCTS Spring Boot service template. It is currently a bare scaffold: `Application.java` plus actuator, observability, logging, JPA/Flyway/PostgreSQL and authz configuration. There is no domain code yet. Reference implementations of common patterns live in `hmcts/service-hmcts-springboot-demo` (see README).
 
 Shared HMCTS code rules are imported via `.claude/CLAUDE.md` (gitignored, created by the `bootstrap-context` hook).
 
@@ -38,4 +38,4 @@ Shared HMCTS code rules are imported via `.claude/CLAUDE.md` (gitignored, create
 
 ## Naming caveats
 
-The service/artifact name is `service-cp-civil-caseadmin-case-management`, but the context path, DB name/user (`casemanagement`), `CP_CM_*` env vars and the `casemanagement.system-user-id` property still use the old naming. Change them together if renaming further.
+The service/artifact name is `service-cp-crime-caseadmin-case-management`, but the context path, DB name/user (`casemanagement`), `CP_CM_*` env vars and the `casemanagement.system-user-id` property still use the old naming. Change them together if renaming further.

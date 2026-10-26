@@ -16,7 +16,7 @@ services:
     networks:
       - service-network
 
-  service-cp-civil-caseadmin-case-management:
+  service-cp-crime-caseadmin-case-management:
     build:
       context: .
       dockerfile: Dockerfile
@@ -49,4 +49,4 @@ services:
 
 networks:
   service-network:
-    name: service-cp-civil-caseadmin-case-management-network
+    name: service-cp-crime-caseadmin-case-management-network

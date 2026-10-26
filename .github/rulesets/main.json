@@ -2,7 +2,7 @@
   "name": "main",
   "target": "branch",
   "source_type": "Repository",
-  "source": "hmcts/service-cp-civil-caseadmin-case-management",
+  "source": "hmcts/service-cp-crime-caseadmin-case-management",
   "enforcement": "active",
   "conditions": {
     "ref_name": {

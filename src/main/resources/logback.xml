@@ -3,7 +3,7 @@
         <encoder class="net.logstash.logback.encoder.LogstashEncoder">
             <shortenedLoggerNameLength>0</shortenedLoggerNameLength>
             <customFields>
-                {"app":"service-cp-civil-caseadmin-case-management","service":"service-cp-civil-caseadmin-case-management"}
+                {"app":"service-cp-crime-caseadmin-case-management","service":"service-cp-crime-caseadmin-case-management"}
             </customFields>
         </encoder>
     </appender>
